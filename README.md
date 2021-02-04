@@ -34,15 +34,15 @@ The message in average takes O(log N) steps to reach the destination peer.
 
 ### Observations:
 #### Same Number of Requests by each peer in the network:
-![alt text](http://url/to/img.png)
+![Table_1](https://github.com/bbalaji561/Pastry_Protocol/blob/main/Images/Table_1.png)
 
-![alt text](http://url/to/img.png)
+![Graph_1](https://github.com/bbalaji561/Pastry_Protocol/blob/main/Images/Graph_1.png)
 
 
 #### Different Number of Requests by each peer in the network:
-![alt text](http://url/to/img.png)
+![Table_2](https://github.com/bbalaji561/Pastry_Protocol/blob/main/Images/Table_2.png)
 
-![alt text](http://url/to/img.png)
+![Graph_2](https://github.com/bbalaji561/Pastry_Protocol/blob/main/Images/Graph_2.png)
 
 ### Analysis:
 1. Initially, the message routing took more hops than the average calculated as the tables were not well-populated. But, once the tables were populated with peer ids the message routing happened in short hop counts.
